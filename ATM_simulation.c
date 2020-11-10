@@ -7,14 +7,14 @@ int main()
 	printf("*********************************Welcome to MY Bank*************************************** \n");
 	printf("Enter your pin \n");
 	scanf("%d", &pin);
-	if (pin != 1234)
+	if (pin != 1234)  //considering PIN as 1234 however in reality it is fetched from database using your ATM card number
 	printf("Your PIN is incorrect. Please try again.");
 	else
 	{
 	int option, left_money;
 	int wm;  //wm - withdrawl money
 	int dm; //dm - deposite money
-	int balance=1000;
+	int balance=1000;    //intitializing balance as 1000
 	printf("\nChoose an option \n");
 	printf("1. Balance Enquiry \n");
 	printf("2. Withdraw Money \n");
