@@ -33,7 +33,7 @@ int main()
 	else
 	{
 	int left_money = balance-wm;
-	printf("Money withdrawl successful. Please collect your cash.\n");
+	printf("Money withdrawl successful. Please collect your cash.\n"); 
 	printf("Money debitted - %d \n", wm);
 	printf("Balance Left -- %d \n", left_money);
 	}
